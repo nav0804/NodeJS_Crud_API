@@ -1,0 +1,11 @@
+server.js ---> Its like the main file which contains import of express and has port configuration
+db.js ----> This file contains the database integration of postgres. DB integration is done with the help of pg dependency. We use pool as an ORM that helps in modifying database.
+student
+*** controller.js ----> contains all the crud functions that are required to be performed
+*** queries.js ----> contains all the sql queries that are needed to perform
+*** routes.js ----> contains all the routes along with the request type
+
+
+1) Routes.js {Define all the routes here along with the respective controller method }
+2) controller.js {Implement all the functions that are required to be performed based on the request}
+3) queries.js {Now the queries written in here will be used in controller, to fetch, update, save, delete data}
